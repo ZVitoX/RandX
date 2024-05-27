@@ -1,2 +1,3 @@
-# Some scripts doing random operations.
+# RandX
+### Some scripts doing random operations.
 ### Using different languages ..
