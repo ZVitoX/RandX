@@ -57,4 +57,4 @@ document.addEventListener("DOMContentLoaded", () => {
 	// Event listeners for the buttons
 	button.addEventListener("click", generatePassword);
 	copyButton.addEventListener("click", copyPassword);
-});
+}); 
