@@ -49,7 +49,6 @@ def random_choice(options):
 
 def display_menu():
 	"""Display a menu for the user to choose options."""
-
 	print("")
 	print(f"{color.LIGHTRED_EX}1. {color.LIGHTWHITE_EX}Enter items manually")
 	print(f"{color.LIGHTRED_EX}2. {color.LIGHTWHITE_EX}Use items from command line arguments")
@@ -90,7 +89,7 @@ def main():
 		display_menu()
 
 		try:
-			option = int(input(f"\n{color.LIGHTYELLOW_EX}[*] {color.LIGHTCYAN_EX}Choose an option {color.LIGHTYELLOW_EX}=> {color.LIGHTRED_EX}"))
+			option = str(input(f"\n{color.LIGHTYELLOW_EX}[*] {color.LIGHTCYAN_EX}Choose an option {color.LIGHTYELLOW_EX}=> {color.LIGHTRED_EX}"))
 			handle_user_choice(option, cli_options)
 
 		except ValueError:
