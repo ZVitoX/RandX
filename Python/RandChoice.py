@@ -49,6 +49,7 @@ def random_choice(options):
 
 def display_menu():
 	"""Display a menu for the user to choose options."""
+
 	print("")
 	print(f"{color.LIGHTRED_EX}1. {color.LIGHTWHITE_EX}Enter items manually")
 	print(f"{color.LIGHTRED_EX}2. {color.LIGHTWHITE_EX}Use items from command line arguments")
